@@ -1,0 +1,240 @@
+@font-face {
+    font-family: Roboto, 'sans-serif';
+    src: url('../fonts/Roboto-Black.ttf');
+    font-weight: 600;
+}
+* {
+    font-family: "Roboto", 'sans-serif';
+    margin: 0;
+    padding: 0;
+}
+.div-header {
+    display: none;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    opacity: 100%;
+}
+.bg-img {
+    width: 100%;
+    max-height: 100%;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+
+}
+.left-header {
+    width: 30%;
+    display: flex;
+    position: relative;
+}
+.left-header i {
+    font-size: 50px;
+    padding-right: 3%;
+}
+.logo-text {
+    margin: 10px;
+    font-size: 30px;
+}
+.right-header {
+    width: 30%;
+    position: relative;
+}
+.Call-us {
+    width: 120px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: mediumblue;
+    color: white;
+    border-color: blue;
+}
+
+body {
+
+}
+.main-page {
+    padding-top: 300px;
+    padding-left: 210px;
+    padding-bottom: 80px;
+    margin-right: 800px;
+}
+.main-heading {
+    font-size: 70px;
+}
+.main-text {
+    font-size: 24px;
+}
+.secondary-heading {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 46px;
+    margin-left: 200px;
+}
+.service-heading {
+    font-size: 30px;
+    margin: 3% 0;
+}
+.Ride-now {
+    width: 120px;
+    height: 50px;
+    font-size: 24px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.pictures-box {
+    width: 100%;
+    padding-top: 100px;
+    background-color: black;
+}
+.picture {
+    width: 33%;
+    margin: -2px;
+}
+.picture img {
+    width: 600px;
+    height: 500px;
+}
+.box1 {
+    justify-content: center;
+    display: flex;
+    width: 96%;
+}
+.box2 {
+    justify-content: center;
+    display: flex;
+    width: 96%;
+}
+.intermezzo {
+    margin: 10%;
+    padding-right: 24%;
+}
+/* height u obrázku jsem nastavil na 100%, čímž není deformovaný */
+#long_img {
+    width: 100%;
+    height: 100%;
+}
+.split-page {
+    display: flex;
+    width: 100%;
+}
+.left-text {
+    width: 50%;
+    margin-left: 6%;
+    margin-right: 8%;
+    margin-top: 12%;
+}
+.View-more {
+    width: 110px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.right-image {
+    width: 50%;
+}
+.right-image img {
+    max-width: 100%;
+    height: 100%;
+}
+.my_hell {
+    background-color: lightgray;
+}
+.my_hell .fa {
+    font-size: 100px;
+}
+#Taxi_service {
+    padding-top: 6%;
+    padding-bottom: 2%;
+}
+.services {
+    width: 100%;
+}
+.service {
+
+}
+#service2, #service4 {
+    padding-left: 240px;
+}
+.box3 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 80px;
+}
+.box4 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 80px;
+}
+.DOM {
+
+}
+.about {
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.closing {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 90px;
+}
+.Book-now {
+    width: 120px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+p {
+    font-size: 20px;
+}
+.ByeBye {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+}
+.footer-left {
+    display: flex;
+    width: 50%;
+}
+.footer-right {
+    width: 50%;
+}
+
+.main-nav {
+    width: 100%;
+    display: flex;
+    height: 40px;
+}
+.main-nav li:last-child {
+    margin-right: auto;
+}
+.main-nav a {
+    margin: 10px;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.main-menu {
+    width: 100%;
+    display: flex;
+    padding: 40px;
+}
+
+.logo {
+    width: 20%;
+}
+
+.button-menu {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
